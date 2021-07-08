@@ -1,0 +1,91 @@
+.navbar{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 0  0 20px 20px;
+    overflow: hidden;
+}
+.small{
+    display: none;
+}
+.small span{
+    display: none;
+}
+nav{
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav img{
+    width: 130px;
+    height: 60px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+nav form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+    margin-right: 10px;
+}
+nav form input:first-child{
+    width: 100%;
+    max-width: 300px;
+    height: 30px;
+    outline: none;
+    border: 1px solid crimson;
+    padding:5px 10px;
+}
+nav form button{
+    width: 60px;
+    height: 30px;
+    background-color: crimson;
+    border: 0;
+    margin-left: -1px;
+    cursor: pointer;
+    color: #fff;
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 1rem;
+}
+span{
+    margin-right: 20px;
+}
+.cart{
+    display: flex;
+    position: relative;
+}
+.cart p{
+    position: absolute;
+    background-color: rgb(6, 109, 226);
+    color: #fff;
+    right: -5px;
+    top: -5px;
+    min-width: 20px;
+    border-radius: 100px;
+    padding: 4px;
+    text-align: center;
+    font-size: 10px;
+}
+
+@media screen and (max-width:800px) {
+    nav form input, nav form button{
+        display: none;
+    }
+    .small{
+        justify-content: center !important;
+        display: block;
+    }
+    .small form{
+        justify-content: center;
+        margin: 10px 30px ;
+    }
+    .small form input, .small form button{
+        display: block;
+    }
+}

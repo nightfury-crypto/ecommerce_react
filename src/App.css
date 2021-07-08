@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*::-webkit-scrollbar{
+  width: 5px;
+  background-color: rgb(231, 228, 228);
+}
+*::-webkit-scrollbar-thumb{
+  background-color: rgb(187, 13, 85);
+}
+body{
+  overflow-x: hidden;
+}
+.App{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgb(231, 228, 228);
+  overflow-x: hidden;
+}
