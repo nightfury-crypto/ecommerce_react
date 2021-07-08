@@ -1,7 +1,7 @@
 # ecommerce_react
  ecommerce web app
 
- clone this repo - 
+ clone this repo - https://github.com/nightfury-crypto/ecommerce_react.git
 
  cd {app-name}
 
